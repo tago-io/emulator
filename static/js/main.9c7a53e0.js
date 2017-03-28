@@ -29887,7 +29887,7 @@
 	            _react2.default.createElement(
 	              'span',
 	              { className: 'text-muted' },
-	              'Tago @ MIT License'
+	              'Tago @ Open Source'
 	            )
 	          )
 	        )
@@ -47282,4 +47282,4 @@
 
 /***/ }
 /******/ ])));
-//# sourceMappingURL=main.ac63f949.js.map
+//# sourceMappingURL=main.9c7a53e0.js.map
