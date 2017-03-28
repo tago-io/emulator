@@ -24,6 +24,11 @@ body {
 
 .mt-1 {
   text-align: center;
+  color: #0275d8;
+}
+
+.floatright {
+  float: right;
 }
 
 /* Custom page CSS
@@ -50,4 +55,4 @@ body {
   font-family: sans-serif;
 }
 
-/*# sourceMappingURL=main.74eac467.css.map*/
+/*# sourceMappingURL=main.56e35cf4.css.map*/

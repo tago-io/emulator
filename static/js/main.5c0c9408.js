@@ -29803,9 +29803,9 @@
 	            'div',
 	            { className: 'mt-1' },
 	            _react2.default.createElement(
-	              'h1',
+	              'h2',
 	              null,
-	              'Tago Emulator'
+	              'Tago Device Emulator'
 	            )
 	          ),
 	          _react2.default.createElement(
@@ -29893,9 +29893,34 @@
 	            'div',
 	            { className: 'container' },
 	            _react2.default.createElement(
+	              'a',
+	              { className: 'text-muted', href: 'https://tago.io', target: '_blank' },
+	              'Tago'
+	            ),
+	            _react2.default.createElement(
 	              'span',
 	              { className: 'text-muted' },
-	              'Tago @ Open Source'
+	              ' @ '
+	            ),
+	            _react2.default.createElement(
+	              'a',
+	              { className: 'text-muted', href: 'https://github.com/tago-io/emulator', target: '_blank' },
+	              'Open Source'
+	            ),
+	            _react2.default.createElement(
+	              'span',
+	              { className: 'text-muted' },
+	              ' @ '
+	            ),
+	            _react2.default.createElement(
+	              'a',
+	              { className: 'text-muted', href: 'http://community.tago.io', target: '_blank' },
+	              'Community'
+	            ),
+	            _react2.default.createElement(
+	              'a',
+	              { className: 'text-muted floatright', href: 'https://github.com/tago-io/emulator/blob/master/LICENSE.md', target: '_blank' },
+	              'Apache License 2.0'
 	            )
 	          )
 	        )
@@ -47347,4 +47372,4 @@
 
 /***/ }
 /******/ ])));
-//# sourceMappingURL=main.ffaa3d76.js.map
+//# sourceMappingURL=main.5c0c9408.js.map
