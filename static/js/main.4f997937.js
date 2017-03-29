@@ -29690,7 +29690,7 @@
 	              _react2.default.createElement(
 	                'div',
 	                null,
-	                _react2.default.createElement('input', { className: 'form-control', type: 'number', value: this.state.timeInterval, onChange: this.handleTimeInterval, id: 'example-number-input' })
+	                _react2.default.createElement('input', { className: 'form-control', type: 'number', min: '5', value: this.state.timeInterval, onChange: this.handleTimeInterval, id: 'example-number-input' })
 	              )
 	            ),
 	            this.buttonRun()
@@ -47415,4 +47415,4 @@
 
 /***/ }
 /******/ ])));
-//# sourceMappingURL=main.ac54afc0.js.map
+//# sourceMappingURL=main.4f997937.js.map
