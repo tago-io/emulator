@@ -29670,7 +29670,7 @@
 	                _react2.default.createElement(
 	                  'option',
 	                  { value: 'thermostat' },
-	                  'Thermostat'
+	                  'Thermostat (\u2109)'
 	                )
 	              )
 	            ),
@@ -29773,8 +29773,8 @@
 	}
 	
 	function car() {
-	    var lat = '-23.550' + getRandomArbitrary(1, 100);
-	    var lng = '-46.633' + getRandomArbitrary(1, 100);
+	    var lat = '-23.550' + getRandomArbitrary(100, 999);
+	    var lng = '-46.633' + getRandomArbitrary(100, 999);
 	
 	    if (fuel_level < 10) fuel_level = 100;
 	    var lower = getRandomArbitrary(1, 15);
@@ -29894,7 +29894,7 @@
 	    temperature += lower;
 	    if (temperature >= 272) temperature = getRandomArbitrary(32, 272);
 	    var data_to_Tago = {
-	        variable: 'thermostat_fahrenheit',
+	        variable: 'temperature',
 	        value: temperature,
 	        unit: 'F',
 	        serie: time
@@ -47415,4 +47415,4 @@
 
 /***/ }
 /******/ ])));
-//# sourceMappingURL=main.cdf7eb6b.js.map
+//# sourceMappingURL=main.ac54afc0.js.map
