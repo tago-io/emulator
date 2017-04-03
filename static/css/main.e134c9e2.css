@@ -9,7 +9,7 @@ body {
   margin-bottom: 60px;
 }
 .footer {
-  position: absolute;
+  margin-top: 25px;
   bottom: 0;
   width: 100%;
   /* Set the fixed height of the footer here */
@@ -30,6 +30,9 @@ body {
 .floatright {
   float: right;
 }
+.floatright {
+  float: right;
+}
 
 /* Custom page CSS
 -------------------------------------------------- */
@@ -37,7 +40,7 @@ body {
 
 .container {
   width: auto;
-  max-width: 680px;
+  max-width: 700px;
   padding: 0 15px;
 }
 
@@ -49,10 +52,16 @@ body {
   padding-top: 10px;
   padding-bottom: 5px;
 }
-body {
+
+.show-data-sample {
+  text-align: center;
+}
+.collapse {
+  text-align: center;
+}body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
 }
 
-/*# sourceMappingURL=main.925ddeba.css.map*/
+/*# sourceMappingURL=main.e134c9e2.css.map*/
